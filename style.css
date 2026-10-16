@@ -1,0 +1,265 @@
+body{
+    margin:0px;
+    font-family: arial;
+}
+#bg-video{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.demon-text{
+    text-align: center;
+    color: red;
+    font-size: bold;
+    text-decoration: solid black;
+}
+
+.demon-img{
+    height: 350;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(212, 228, 232);
+    padding: 20px;
+    
+}
+.tanjiro{
+    background-image:url("https://i.ibb.co/N6zHM1bS/file-00000000f0f471fa9e3a9199ff7fb991.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 15px rgba(0, 0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.tanjiro:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+.nezuko{
+    background-image: url("https://i.ibb.co/N2y5Lm5D/file-00000000925071fa84136d5638b7a07f.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 15px rgba(0, 0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.nezuko:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+.inosuke{
+    background-image: url("https://i.ibb.co/PZZR3YhG/file-00000000385871fa84cc836595245bac.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 15px rgba(0, 0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.inosuke:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+.Zenistu{
+    background-image:url("https://i.ibb.co/vvRfnPsR/file-000000004d7071fb91d70ca243f1c393.png");   
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 15px rgba(0, 0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.Zenistu:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+#tanjiro{
+    color: rgb(59, 56, 252);
+    height: 60px;
+    width: 250px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+#tanjiro:hover{
+    background-color: rgb(226,61,24);
+    color: rgb(240, 243, 245);
+    transform:translateY(-10px) scale(1.05);
+}
+#nezuko{
+    color: rgb(59, 56, 252);
+    height: 60px;
+    width: 250px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+
+}
+#nezuko:hover{
+    background-color: rgb(111,10,39);
+    color: rgb(244, 237, 241);
+    transform:translateY(-10px) scale(1.05);
+}
+#inosuke{
+    color: rgb(59, 56, 252);
+    height: 60px;
+    width: 250px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+#inosuke:hover{
+    background-color: rgb(5,68,148);
+    color: rgb(240, 243, 245);
+    transform:translateY(-10px) scale(1.05);
+}
+#zenistu{
+    color: rgb(59, 56, 252);
+    height: 60px;
+    width: 250px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+#zenistu:hover{
+    background-color: rgb(299,148,0);
+    color: rgb(240, 243, 245);
+    transform:translateY(-10px) scale(1.05);
+}
+#hashira{
+    background-color: gainsboro;
+}
+.h-hashira{
+    text-align: center;
+    color: firebrick;
+}
+.hashira-1{
+    height: 230px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.mitsuri{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/bwsb5f8/1783607891037.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.mitsuri:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.moichiro{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/GQktYpz0/1783608484714.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.moichiro:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.giyu{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/LmFjFHL/1783608497269.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.giyu:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.hashira-2{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+.shinobu{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/RpZcdZLC/1783608509850.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.shinobu:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.rengoku{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/ksw81Z7N/1783608521325.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.rengoku:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.tengen{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/2YLXJYmF/1783608535344.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.tengen:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.hashira-3{
+    height:230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.gyomei{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/tp7qTT97/1783608546657.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.gyomei:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.obanai{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/k7b8Knh/1783608560054.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.obanai:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.sanemi{
+    height: 220px;
+    width: 410px;
+    background-image: url("https://i.ibb.co/4RQJw7DT/1783608572294.png");
+    background-size:cover;
+    transition: transform 0.3s ease;
+}
+.sanemi:hover{
+     transform:translateY(-10px) scale(1.05);
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
